@@ -7,7 +7,7 @@ class MySolver(Solver):
 
     def solve(self, instance, submit_candidate):
         start = time.perf_counter()
-        LIMIT = 4.85
+        LIMIT = 4.98
 
         table = dist_table(instance)
         weights = instance.weights
